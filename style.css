@@ -3,4 +3,40 @@
 
 *{
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+
+header{
+    background: #060606;
+    padding: 38px 150px 120px 150px;
+    color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > img{
+    width: 150px;
+    height: 40px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
 }
