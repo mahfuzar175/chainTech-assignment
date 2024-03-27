@@ -213,3 +213,24 @@ border-radius: 50%;
     color: black;
 
 }
+
+footer{
+    padding: 68px 200px 68px 200px;
+    background-color: #060606;
+    text-align: center;
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hr-line{
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+.rights{
+    color: #98A6AC;
+}
+
