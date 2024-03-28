@@ -8,19 +8,20 @@
 }
 
 /* header styles */
-
 header {
   background: #060606;
-  padding: 38px 120px 125px 120px;
   color: white;
 }
 
 nav {
   display: flex;
+  padding: 20px  120px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 90px;
+  border-bottom: 1px solid #1F1F1F;
 }
+
 nav > img {
   width: 150px;
   height: 40px;
@@ -41,11 +42,16 @@ nav li a {
   color: white;
 }
 
+nav li a:hover {
+  color: #00FFA7;
+}
+
 /* banner styles */
 .banner {
   max-width: 750px;
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 120px;
 }
 .banner-title {
   font-size: 85px;
@@ -229,8 +235,210 @@ footer{
 .hr-line{
     margin-top: 52px;
     margin-bottom: 52px;
+    border-bottom: 2px solid #1F1F1F;
 }
 .rights{
     color: #98A6AC;
 }
 
+
+/* responsive media quaries*/
+@media screen and (max-width: 576px) {
+
+  header{
+    padding: 25px;
+  }
+  nav{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .banner-title{
+    font-size: 40px;
+    line-height: 50.5px;
+  }
+  nav > ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  nav li {
+    margin-right: 0px;
+  }
+  .banner-description{
+    font-size: small;
+  }
+
+  .services {
+    padding: 30px;
+  }
+  
+  .services-title{
+    font-size: 35px;
+  }
+
+  .services-description{
+    font-size: small;
+  }
+  
+.services-title-div{
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+
+
+}
+
+.cards{
+  margin-top: 12px;
+  flex-direction: column;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card1{
+  width: 100%;
+
+}
+.card2{
+  width: 100%;
+}
+.card3{
+  width: 100%;
+}
+.card4{
+  width: 100%;
+}
+
+footer{
+  padding: 30px;
+  text-align: center;
+}
+
+.hr-line{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer p{
+  font-size: small;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 960px){
+  header{
+    padding: 35px;
+  }
+  nav{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .banner-title{
+    font-size: 50px;
+    line-height: 50.5px;
+  }
+  nav > ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  nav li {
+    margin-right: 0px;
+  }
+  .banner-description{
+    margin-top: 16px;
+    font-size: medium;
+  }
+
+  .services {
+    padding: 30px;
+  }
+  
+  .services-title{
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .services-description{
+    font-size: 14px;
+  }
+  
+.services-title-div{
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+
+
+}
+
+.cards{
+  margin-top: 12px;
+  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card1{
+  width: 100%;
+
+}
+.card2{
+  width: 100%;
+}
+.card3{
+  width: 100%;
+}
+.card4{
+  width: 100%;
+}
+
+footer{
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 960px) and (max-width: 1024px){
+
+  nav li {
+    margin-right: 20px;
+  }
+  .services-title{
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .services-description{
+    font-size: medium;
+    text-align: start;
+    margin-bottom: 12px;
+  }
+  
+.services-title-div{
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+
+
+}
+  .cards{
+    margin-top: 12px;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+  
+  }
+}
