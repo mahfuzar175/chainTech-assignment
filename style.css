@@ -85,6 +85,7 @@ nav li a:hover {
   font-size: 16px;
 }
 
+/* service section styles */
 .services {
   padding: 38px 120px 125px 120px;
 }
@@ -220,6 +221,8 @@ border-radius: 50%;
 
 }
 
+
+/* footer section styles */
 footer{
     padding: 68px 200px 68px 200px;
     background-color: #060606;
@@ -242,7 +245,7 @@ footer{
 }
 
 
-/* responsive media quaries*/
+/* responsive media quaries for mobile devices*/
 @media screen and (max-width: 576px) {
 
   header{
@@ -329,7 +332,7 @@ footer p{
 
 }
 
-
+/* responsive media quaries for tablet devices*/
 @media screen and (min-width: 576px) and (max-width: 960px){
   header{
     padding: 35px;
@@ -409,7 +412,7 @@ footer{
 
 }
 
-
+/* responsive media quaries for large devices*/
 @media screen and (min-width: 960px) and (max-width: 1024px){
 
   nav li {
