@@ -31,7 +31,7 @@ nav > ul {
 }
 nav li {
   list-style: none;
-  margin-right: 40px;
+  margin-left: 40px;
   font-weight: 500;
   font-size: 1rem;
   color: white;
@@ -266,7 +266,7 @@ footer{
     align-items: center;
   }
   nav li {
-    margin-right: 0px;
+    margin-left: 0px;
   }
   .banner-description{
     font-size: small;
@@ -352,7 +352,7 @@ footer p{
     align-items: center;
   }
   nav li {
-    margin-right: 0px;
+    margin-left: 0px;
   }
   .banner-description{
     margin-top: 16px;
@@ -416,7 +416,7 @@ footer{
 @media screen and (min-width: 960px) and (max-width: 1024px){
 
   nav li {
-    margin-right: 20px;
+    margin-left: 20px;
   }
   .services-title{
     font-size: 45px;
